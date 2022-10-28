@@ -1,14 +1,12 @@
 // Your web app's Firebase configuration
-var  firebaseConfig = {
-    apiKey: "AIzaSyDcnhGRJIwqCAPUGeh4mcNE0n0IypYIO_c",
-    authDomain: "c-100-85793.firebaseapp.com",
-    databaseURL: "https://c-100-85793-default-rtdb.firebaseio.com",
-    projectId: "c-100-85793",
-    storageBucket: "c-100-85793.appspot.com",
-    messagingSenderId: "109717993965",
-    appId: "1:109717993965:web:852caca843be37658d8fe4"
-  };
-  
+ var firebaseConfig = {
+    apiKey: "AIzaSyBaky19YO5sErAWxJYu9CPq0pvqsUNqx-c",
+    authDomain: "lets-chat-web-app-2c438.firebaseapp.com",
+    projectId: "lets-chat-web-app-2c438",
+    storageBucket: "lets-chat-web-app-2c438.appspot.com",
+    messagingSenderId: "1036750220809",
+    appId: "1:1036750220809:web:269ab31044cd9a52a052d8",
+    measurementId: "G-3XRSTRR2R2"
   // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 
@@ -27,6 +25,8 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
 
     //End code
     });});}
+
+ 
 getData();
 
 
